@@ -84,5 +84,4 @@ func main() {
 
 	posts, _ := Posts(10)
 	fmt.Println(posts)
-
 }
