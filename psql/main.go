@@ -79,7 +79,7 @@ func main() {
 	fmt.Println(readPost)
 
 	readPost.Content = "test update"
-	readPost.Author = "Midori Takeuchi"
+	readPost.Author = "Manaki Go"
 	readPost.Update()
 
 	posts, _ := Posts(10)
